@@ -4,7 +4,7 @@ After=network.target
 
 [Service]
 Type=simple
-ExecStart=/bin/bash /slaporra/init.sh
+ExecStart=/bin/bash slaporra/init.sh
 TimeoutStartSec=0
 
 [Install]
